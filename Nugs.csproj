@@ -8,6 +8,17 @@
     <ToolCommandName>nugs</ToolCommandName>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <Product>Nugs</Product>
+    <PackageVersion Condition="'$(PackageVersion)' == ''">0.1.0-preview1</PackageVersion>
+    <PackageProjectUrl>https://github.com/loic-sharma/nugs</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIconUrl>https://raw.githubusercontent.com/NuGet/Media/master/Images/MainLogo/256x256/nuget_256.png</PackageIconUrl>
+
+    <PackageTags>NuGet</PackageTags>
+    <Description>A .NET tool to search and install NuGet packages.</Description>
+  </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="BaGet.Protocol" Version="0.3.0-preview3" />
     <PackageReference Include="Microsoft.DotNet.Interactive" Version="1.0.0-beta.20154.7" />
