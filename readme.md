@@ -11,6 +11,14 @@ Nugs lets you find and install packages from the command line:
 
 Nugs is a .NET Core Tool. Install it with:
 
-```dotnetcli
+```
 dotnet tool install --global nugs --version 0.1.0-preview1
 ```
+
+Navigate to your project's directory and run:
+
+```
+nugs
+```
+
+That's it!
