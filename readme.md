@@ -4,5 +4,5 @@
 
 Nugs lets you find and install packages from the command line:
 
-* :bulb: **Instant search**: Results appear immediately as you type.
-* :rocket: **Package installation**: Just press `enter`!
+* :bulb: **Instant search**: results appear immediately as you type.
+* :rocket: **Package installation**: just press `enter`!
